@@ -1,4 +1,4 @@
-/* Reset (basic clean start) */
+/* Reset  */
 * {
     margin: 0;
     padding: 0;
@@ -18,10 +18,9 @@ h1, h2, h3 {
     margin-bottom: 15px;
 }
 
-/* NAVIGATION - FIXED FOR CONTRAST */
+/* NAVIGATION */
 nav {
     display: flex;
-    /* Changed from #7d8a96 to #333d47 for better contrast */
     background-color: #333d47;
     position: sticky;
     top: 0;
@@ -45,13 +44,13 @@ nav {
     flex: 1;
     text-align: center;
     padding: 15px;
-    color: white; /* This now has high contrast against #333d47 */
+    color: white;
     text-decoration: none;
     transition: 0.3s;
 }
 
 .nav-links a:hover {
-    background-color: #555e69; /* Slightly lighter on hover */
+    background-color: #555e69;
     color: white;
 }
 
@@ -144,7 +143,7 @@ section {
 footer {
     text-align: center;
     padding: 40px 0;
-    color: #666; /* Darkened slightly for better footer contrast */
+    color: #666;
     font-size: 0.9rem;
 }
 
