@@ -1,4 +1,4 @@
-/* Reset  */
+/* Reset */
 * {
     margin: 0;
     padding: 0;
@@ -7,18 +7,22 @@
 
 body {
     font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
     background-color: #f5f5f5;
     color: #333;
     line-height: 1.6;
 }
 
-/* Headings */
+/* Heading */
 h1, h2, h3 {
-    font-family: 'Poppins', sans-serif;
+    font-family: "Inter", sans-serif;
+    font-weight: 700; /* Bold weight */
     margin-bottom: 15px;
 }
 
-/* NAVIGATION */
+/* NAVIGATION SECTION*/
+
 nav {
     display: flex;
     background-color: #333d47;
@@ -31,8 +35,8 @@ nav {
     background-color: black;
     color: white;
     padding: 15px 30px;
-    font-weight: bold;
-    font-family: 'Poppins', sans-serif;
+    font-weight: 900;
+    font-family: "Inter", sans-serif;
 }
 
 .nav-links {
@@ -47,6 +51,7 @@ nav {
     color: white;
     text-decoration: none;
     transition: 0.3s;
+    font-weight: 500;
 }
 
 .nav-links a:hover {
@@ -55,6 +60,7 @@ nav {
 }
 
 /* Main container */
+
 .container {
     width: 95%;
     max-width: 1100px;
@@ -66,6 +72,7 @@ nav {
 }
 
 /* Sections */
+
 section {
     margin-bottom: 60px;
 }
@@ -75,6 +82,7 @@ section {
 }
 
 /* Images */
+
 .img-container {
     margin: 20px 0;
 }
@@ -87,6 +95,7 @@ section {
 }
 
 /* Product grid */
+
 .product-grid {
     display: flex;
     flex-wrap: wrap;
@@ -105,6 +114,10 @@ section {
     flex-grow: 1;
 }
 
+.product-card h3 {
+    font-weight: 600;
+}
+
 .product-card img {
     width: 100%;
     height: 180px;
@@ -114,6 +127,7 @@ section {
 }
 
 /* Contact section */
+
 .contact-flex {
     display: flex;
     flex-wrap: wrap;
@@ -140,9 +154,11 @@ section {
 }
 
 /* Footer */
+
 footer {
     text-align: center;
     padding: 40px 0;
     color: #666;
     font-size: 0.9rem;
+    font-weight: 300;
 }
