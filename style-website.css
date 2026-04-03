@@ -146,10 +146,3 @@ footer {
     color: #666;
     font-size: 0.9rem;
 }
-
-/* Mobile responsive */
-@media (max-width: 600px) {
-    .nav-links {
-        flex-direction: column;
-    }
-}
